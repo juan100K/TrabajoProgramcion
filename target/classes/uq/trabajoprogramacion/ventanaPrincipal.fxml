@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="430.0" prefWidth="632.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uq.trabajoprogramacion.controller.SelectViewController">
+   <children>
+      <Label fx:id="LabelTitulo" layoutX="205.0" layoutY="26.0" prefHeight="27.0" prefWidth="337.0" text="Sistema de gestion de Deportes">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="LabelMenu" layoutX="300.0" layoutY="65.0" prefHeight="27.0" prefWidth="58.0" text="Menu">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonDeportes" layoutX="255.0" layoutY="109.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="Deportes" />
+      <Button fx:id="buttonEntrenadores" layoutX="255.0" layoutY="154.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="Entrenadores" />
+      <Button fx:id="buttonMiembros" layoutX="254.0" layoutY="190.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="Miembros" />
+      <Button layoutX="252.0" layoutY="231.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="160.0" text="Secciones Entrenamiento" />
+      <Button fx:id="buttonAdministradores" layoutX="249.0" layoutY="274.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="160.0" text="Administradores" />
+   </children>
+</AnchorPane>
